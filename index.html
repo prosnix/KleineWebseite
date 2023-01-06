@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Festplatte</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/device-hdd.svg">
+    <!--    Bootstrap css file importieren-->
+    <link rel="stylesheet" href="lib/bootstrap-5.2.1-dist/css/bootstrap.min.css">
+</head>
+
+<body class="body bg-dark">
+
+<!--Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-lg-2 py-lg-3 sticky-top">
+    <div class="container">
+        <a class="navbar-brand fs-2 fw-bold" href="">
+            <span class="navColor">Fest</span>platte</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Start</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">Über</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#technical data">Technischen Daten</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#connections">Anschlüsse</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--ImageSlider-->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active ">
+            <div style="background-image: url('img/hdd-ssd.jpg')" class="slider-img">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div style="background-image: url('img/hdd2.jpeg')" class="slider-img">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div style="background-image: url('img/hdd1.jpg')" class="slider-img">
+            </div>
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!--txt Allgemein-->
+<div id="Start" class="container-fluid" style="margin-top: 3%">
+    <h2 class="headlineSettings">Allgemein</h2>
+    <p class="middle" style="color: white">
+        Eine Festplatte ist das Speichermedium in einem Computer.
+        Alle Daten wie Dokumente, Bilder oder Programme
+        werden
+        dort gesichert.
+        Oft wird die Festplatte auch als HDD bezeichnet. Ausführlich "Hard Disk Drive" und bezeichnet eine
+        normale
+        Festplatte.
+    </p>
+    <hr class="linesettings">
+    <p class="middle" style="color: white">
+        Eine andere Art der Festplatten ist die SSD Im Gegensatz
+        zu SSD besitzt HDD bewegliche Teile.
+        Die HDD-Festplatte benutzt ein magnetisches Speichersystem, genau wie eine Diskette oder ein Ton- und
+        Videoband.
+        Weiterhin können Sie zwischen internen und externen Festplatten unterscheiden: Interne HDDs befinden
+        sich in
+        Ihrem
+        PC, während Sie externe Festplatten per USB an jedes beliebige Gerät anschließen können.
+    </p>
+</div>
+
+<!--txt über-->
+<div style="background-image: url('img/hhd-prev.jpg'); margin-left: 25% !important; margin-top: 15% !important;"
+     class="imgsmall float-lg-start mx-auto"></div>
+<div id="about" class="container-fluid" style="margin-top: 10%">
+    <h2 class="textRight" style="color: orange">Über</h2>
+    <p class="textRight" style="color: white; margin-top: 1%">
+        Die HDD-Festplatte benutzt ein magnetisches Speichersystem,
+        genau wie eine Diskette oder ein Ton- und Videoband.
+        Bei einer HDD kommen rotierende Scheiben zum Einsatz,
+        auf deren Oberfläche die Daten gespeichert werden.
+        Im Gehäuse einer HDD befindet sich immer mehrere scheiben die genau übereinander liegen
+        Beim Schreiben von Informationen wird die magnetische Oberfläche der Scheiben dauerhaft und ohne Berührung
+        magnetisiert.
+        Beim Lesen der Daten tastet ein Sensor diese Magnetisierung der Scheibe berührungslos ab und verwandelt die
+        Werte wieder in lesbare Daten. Im Grunde genommen es funktioniert wie eine CD
+        In Festplatten werden die gespeicherten Informationen in Blöcken zusammengefasst, die jeweils eine feste Größe
+        haben. Meistens sind die Blöcke 512 oder 4096 Byte groß. Die Speicherkapazität einer Festplatte ergibt sich dann
+        aus der Größe eines Blocks multipliziert mit der Anzahl an Blöcken.
+        Je weiter diese einzelnen Blöcke auseinanderliegen, desto länger kann ein Lese-Vorgang dauern. Deshalb sollten
+        Sie Ihre Festplatte regelmäßig defragmentieren.
+
+    </p>
+</div>
+
+<!--txt technical data-->
+<div id="technical data" style="margin-top: 10%">
+    <h2 class="textRight" style="color: orange">Technischen Daten</h2>
+    <div class="textRight" style="margin-top: 2%">
+        <p>
+            Name: Hard Disk Drive (HDD)
+        <p>
+            Aufbau: Mechanisch und Elektronisch
+        <p>
+            Speicherart: Magnetisch
+        <p>
+            Einführungsjahr: 1956
+        <p>
+            Erfinder: IBM© ( Industrial Bureau Machines )
+        <p>
+            Baugrösse: 3.5“/2.5“/1.8“/1.0“/0.85“(0.85“ nur Toshiba)
+        <p style="margin-top: -3%">Wobei die Grössen 1.0“ und 0.85“ nicht mehr
+            im Gebrauch sind</p>
+        <p>
+            Drehzahl: bis zu 15.000 U/min (Umdrehungen pro Minute)
+        <p style="margin-top: -3%">(Standard von 5400 - 7200 U/min)</p>
+
+        <p>
+            Speicherkapazitäten: Bis zu 22TB bei 3.5“ /
+            <p style="margin-top: -3%">bis zu 5TB bei 2.5“ (Stand: 2022)</p>
+        <p>
+            Puffergrössen (Cache): in der Regel zwischen 8 und 512 MB
+        <p style="color: blue">
+            Minimale Betriebstemp: 5°C
+        <p style="color: red">
+            Maximale Betriebstemp: 60°C
+    </div>
+
+</div>
+
+<!--txt Anschlüsse-->
+<div id="connections" style="margin-top: 10%">
+    <h2 class="headlineSettings" style="color: orange">Anschlüsse</h2>
+    <div style="background-image: url('img/usbport.png'); margin-left: 15% !important;margin-right: 5% !important; margin-top: 5% !important; width: 100px; height: 100px"
+         class="imgsmall float-lg-start mx-auto"></div>
+    <h4 class="middle" style="color: orange; margin-top: 2%">USB</h4>
+    <p class="middle text-white">
+        Für den Anschluss von externen Festplatten ist üblicherweise der USB Anschluss vorgesehen. Er dient als
+        Verbindung zwischen dem Computer und dem externen Speicher, damit eine Datenübertragung erfolgt. Ein grosser
+        Vorteil beim USB ist, dass damit die Festplatte im laufenden Modus angeschlossen werden kann.
+    </p>
+    <div style="background-image: url('img/sataport.png'); margin-left: 15% !important;margin-right: 5% !important; margin-top: 5% !important; width: 100px; height: 100px"
+         class="imgsmall float-lg-start mx-auto"></div>
+    <h4 class="middle" style="color: orange; margin-top: 2%">SATA</h4>
+    <p class="middle text-white">
+        Zu den geläufigsten Anschlussmöglichkeiten bei den Festplatten gehört der SATA (Serial ATA) Anschluss. Bei
+        diesem Anschluss handelt es sich um die nach wie vor am meisten genutzte Möglichkeit des Datenaustausches
+        zwischen dem Prozessor auf dem Mainboard und der Festplatte. SATA ist eine Weiterentwicklung des ATA
+        Anschlusses. Die neueste Version davon heisst SATA 2.
+    </p>
+    <div style="background-image: url('img/esataport.png'); margin-left: 15% !important;margin-right: 5% !important; margin-top: 5% !important; width: 100px; height: 100px"
+         class="imgsmall float-lg-start mx-auto"></div>
+    <h4 class="middle" style="color: orange; margin-top: 2%">eSATA</h4>
+    <p class="middle text-white">
+        Eine weitere Variation von SATA ist das sogenannte eSATA, was External Serial ATA bedeutet. Grundsätzlich ist
+        SATA ausschliesslich innerhalb des Computers für den Anschluss der Geräte geschaffen, also beispielsweise für
+        interne Festplatten. Wie der Name schon sagt können aber über eSATA externe Festplatten angeschlossen werden.
+    </p>
+</div>
+
+<!--footer-->
+<div class="footer text-white" style="margin-bottom: 2%">
+    <div class="dropdown" style="margin-top: 1%">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false" style="color: orange">
+            LINKS
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="https://de.wikipedia.org/wiki/Festplattenlaufwerk"> wikipedia.org</a>
+            </li>
+            <li><a class="dropdown-item" href="https://praxistipps.chip.de/was-ist-eine-hdd-einfach-erklaert_41684">praxistipps.chip.de</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--Bootstrap javascript file importieren-->
+<script src="lib/bootstrap-5.2.1-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
